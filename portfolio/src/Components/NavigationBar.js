@@ -22,7 +22,7 @@ export function NavigationBar()
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icons">
-                            <a href="#"> <img src={""} alt="LinkedIn" /> </a> /*LinkedIn*/
+                            <a href="#"> <img src={""} alt="LinkedIn" /> </a>
                             <a href="#"> <img src={""} alt="GitHub" /> </a>
                             <a href="#"> <img src={""} alt="None/FigureOut" /> </a>
                         </div>
