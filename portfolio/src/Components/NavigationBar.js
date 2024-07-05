@@ -1,5 +1,10 @@
 import { useState, useEffect } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
+import logo from ".../Assets/Images/logo.svg";
+import navIcon1 from ".../Assets/Images/nav-icon1.svg";
+import navIcon2 from ".../Assets/Images/nav-icon2.svg";
+import navIcon3 from ".../Assets/Images/nav-icon3.svg";
+
 //13.20 
 export function NavigationBar()
 {
@@ -26,12 +31,12 @@ export function NavigationBar()
     {
         setActiveLink(value);
     }
-    
+
     return (
         <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
             <Container>
                 <Navbar.Brand href="#home">
-                    <img src={""} alt="Logo" />
+                    <img src={logo} alt="Logo" />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav">
                     <span className="navbar-toggler-icon"></span>
@@ -44,9 +49,9 @@ export function NavigationBar()
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icons">
-                            <a href="#"> <img src={""} alt="LinkedIn" /> </a>
-                            <a href="#"> <img src={""} alt="GitHub" /> </a>
-                            <a href="#"> <img src={""} alt="None/FigureOut" /> </a>
+                            <a href="#"> <img src={navIcon1} alt="LinkedIn" /> </a>
+                            <a href="#"> <img src={navIcon2} alt="GitHub" /> </a>
+                            <a href="#"> <img src={navIcon3} alt="None/FigureOut" /> </a>
                         </div>
                         <button className="vvd" onClick={() => console.log("contact us form")}><span>Let's Connect!</span></button>
                     </span>
