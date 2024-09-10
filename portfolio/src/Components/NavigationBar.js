@@ -1,18 +1,18 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
-import logo from ".../Assets/Images/logo.svg";
-import navIcon1 from ".../Assets/Images/nav-icon1.svg";
-import navIcon2 from ".../Assets/Images/nav-icon2.svg";
-import navIcon3 from ".../Assets/Images/nav-icon3.svg";
+
+import logo from "../Assets/Images/logo.svg";
+import linkedInIcon from "../Assets/Images/linkedIn-icon.svg";
+import githubIcon from "../Assets/Images/github-icon.svg";
 
 //13.20 
-export function NavigationBar()
+export const NavigationBar = () =>
 {
     const [activeLink, setActiveLink] = useState("home");
     const [scrolled, setScrolled] = useState(false);
 
     useEffect(() => {
-        const onScroll = () =>{
+        const onScroll = () => {
         if (window.scrollY > 50)
         {
             setScrolled(true);
@@ -25,10 +25,9 @@ export function NavigationBar()
         window.addEventListener("scroll", onScroll);
 
         return () => window.removeEventListener("scroll"), onScroll;
-    })
+    }, [])
     
-    function onUpdateActiveLink(value)
-    {
+    const onUpdateActiveLink = (value) => {
         setActiveLink(value);
     }
 
@@ -43,15 +42,14 @@ export function NavigationBar()
                 </Navbar.Toggle>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link href="#home" className={activeLink === "home" ? "active navbar-link" : "navbar-link"} onClick={onUpdateActiveLink("home")}>Home</Nav.Link>
-                        <Nav.Link href="#skills" className={activeLink === "skills" ? "active navbar-link" : "navbar-link"} onClick={onUpdateActiveLink("skills")}>Skills</Nav.Link>
-                        <Nav.Link href="#projects" className={activeLink === "projects" ? "active navbar-link" : "navbar-link"} onClick={onUpdateActiveLink("projects")}>Projects</Nav.Link>
+                        <Nav.Link href="#home" className={activeLink === "home" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("home")}>Home</Nav.Link>
+                        <Nav.Link href="#skills" className={activeLink === "skills" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("skills")}>Skills</Nav.Link>
+                        <Nav.Link href="#projects" className={activeLink === "projects" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("projects")}>Projects</Nav.Link>
                     </Nav>
                     <span className="navbar-text">
-                        <div className="social-icons">
-                            <a href="#"> <img src={navIcon1} alt="LinkedIn" /> </a>
-                            <a href="#"> <img src={navIcon2} alt="GitHub" /> </a>
-                            <a href="#"> <img src={navIcon3} alt="None/FigureOut" /> </a>
+                        <div className="social-icon">
+                            <a href="https://www.linkedin.com/in/emanuelle-pelayo-544523315/"> <img src={linkedInIcon} alt="LinkedIn" /> </a>
+                            <a href="https://github.com/emanp"> <img src={githubIcon} alt="GitHub" /> </a>
                         </div>
                         <button className="vvd" onClick={() => console.log("contact us form")}><span>Let's Connect!</span></button>
                     </span>
@@ -60,3 +58,4 @@ export function NavigationBar()
         </Navbar>
     )
 }
+
