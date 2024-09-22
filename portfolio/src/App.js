@@ -1,15 +1,22 @@
 
 import React from 'react'
-import logo from './logo.svg';
 import './App.css';
-import { NavigationBar } from "./Components/NavigationBar";
-import {Banner} from "./Components/Banner";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./Pages/Home";
+import Contact from "./Pages/Contact"
+
 
 function App() {
   return (
     <div className="App">
-      <NavigationBar />
-      <Banner />
+      <Router>
+        <Routes>
+          <Route index element={<Home />} />
+          <Route path="/Home" element = {<Home/>} />
+          {/* <Route path="/Portfolio" element = {<Portfolio/>} /> */}
+          <Route path="/Contact" element={<Contact />} />
+        </Routes> 
+      </Router>
     </div>
   );
 }

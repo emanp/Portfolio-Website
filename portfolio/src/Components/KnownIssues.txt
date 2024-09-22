@@ -1,0 +1,6 @@
+1. Contact form not centered and styled
+2. onClick on contact buttons needs to redirect to ".../contact"
+3. Needs portfolio
+4. reused/retyped code in NavigationBar.js and Banner.js -> Is there a way to just use a shared function across components? (onClickContact)\
+5. Need Skills and Projects sections
+6. GitHub logo on home page is wayyy to small lmao

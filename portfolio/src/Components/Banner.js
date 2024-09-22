@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {ArrowRightCircle} from "react-bootstrap-icons";
+import {Link, useNavigate} from "react-router-dom"
 import headerImg from "../Assets/Images/header-img.svg"
 
 export const Banner = () =>
@@ -12,6 +13,7 @@ export const Banner = () =>
     const [delta, setDelta] = useState(300 - Math.random() * 100); //how quickly the letters change 
     const period = 2000; //Amount of time between each word
 
+    const [activeLink, setActiveLink] = useState("home");
     useEffect(() => {
         let ticker = setInterval(() => {
             tick();
@@ -44,6 +46,13 @@ export const Banner = () =>
             setLoopNum(loopNum +1 );
             setDelta(500);
         }}
+
+    const navigate = useNavigate();
+    const onClickContact = (value) => {
+        setActiveLink(value);
+        navigate("/" + value);
+    }
+
     return (
         <section className="banner" id="home">
             <Container>
@@ -52,7 +61,7 @@ export const Banner = () =>
                         <span className="tagline">Welcome to my portfolio!</span>
                         <h1>{"Hi, I'm Eman! "} <span className="wrap"> {currentText} </span> </h1>
                         <p>description about myself hi im eman describe your skills, responsibilities, etc. time in industry</p>
-                        <button onClick={() => console.log("connect")}> Let's Connect <ArrowRightCircle size={25}></ArrowRightCircle> </button>
+                        <button onClick={() => onClickContact("contact")}> Let's Connect <ArrowRightCircle size={25}></ArrowRightCircle> </button>
 
                     </Col>
                     <Col xs={12} md={6} xl={5}>
@@ -63,3 +72,4 @@ export const Banner = () =>
         </section>
     )
 }
+export default Banner;
