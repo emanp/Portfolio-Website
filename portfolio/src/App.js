@@ -4,6 +4,7 @@ import './App.css';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./Pages/Home";
 import Contact from "./Pages/Contact"
+import Projects from './Pages/Projects';
 
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
         <Routes>
           <Route index element={<Home />} />
           <Route path="/Home" element = {<Home/>} />
-          {/* <Route path="/Portfolio" element = {<Portfolio/>} /> */}
+          <Route path="/Projects" element = {<Projects/>} />
           <Route path="/Contact" element={<Contact />} />
         </Routes> 
       </Router>

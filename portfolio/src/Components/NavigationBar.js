@@ -58,7 +58,7 @@ export const NavigationBar = () =>
                             <a href="https://www.linkedin.com/in/emanuelle-pelayo-544523315/"> <img src={linkedInIcon} alt="LinkedIn" /> </a>
                             <a href="https://github.com/emanp"> <img src={githubIcon} alt="GitHub" /> </a>
                         </div>
-                        <button className="vvd" onClick={() => onClickContact("contact")}><span>Let's Connect!</span></button>
+                        <button onClick={() => onClickContact("contact")}><span>Let's Connect!</span></button>
                     </span>
                 </Navbar.Collapse>
             </Container>

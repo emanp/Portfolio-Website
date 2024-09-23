@@ -3,4 +3,7 @@
 3. Needs portfolio
 4. reused/retyped code in NavigationBar.js and Banner.js -> Is there a way to just use a shared function across components? (onClickContact)\
 5. Need Skills and Projects sections
-6. GitHub logo on home page is wayyy to small lmao
+6. GitHub logo on home page is wayyy to small lmao\
+7. Buttons in portfolio section are black -- df?
+    - Make them look like the "Let's Connect" in the header
+8. Clicking on "logo" should lead to home
