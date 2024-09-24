@@ -32,23 +32,35 @@ export default function ContactForm()
     };
 
     return (
-        <form onSubmit={onSubmit}>
-            <div>
-                <label htmlFor="Name"> Name: </label>
-                <input type="text" name="from_name" onChange={(e) => setName(e.target.value)}/> 
-            </div>
+        <div>
+        <h1 style={{marginTop: '100px' , textAlign: 'center'}}>Contact Me!</h1>
+        <p style={{textAlign: 'center'}}>I'd love to hear from you. Send me a message and I'll respond as soon as possible.</p>
+        <div className="form-container">
 
-            <div>
-                <label htmlFor="Message"> Message: </label>
-                <input type="text" name="message" onChange={(e) => setMessage(e.target.value)}/>
-            </div>
+            <form onSubmit={onSubmit}>
+                <div>
+                    <div><label htmlFor="Name"> Name* </label></div>
+                    <input type="text" name="from_name" onChange={(e) => setName(e.target.value)}/> 
+                </div>
 
-            <div>
-                <label htmlFor="email"> Email: </label>
-                <input type="text" name="email_from" onChange={(e) => setEmail(e.target.value)}/>
-            </div>
-            <input type="submit" value="Submit" disabled={!isValidForm}/>
-        </form>
+                <div>
+                    <div><label htmlFor="email"> Email* </label></div>
+                    <input type="text" name="email_from" onChange={(e) => setEmail(e.target.value)}/>
+                </div>
+
+                <div>
+                    <div><label htmlFor="Message"> Message* </label></div>
+                    <input type="text" name="message" onChange={(e) => setMessage(e.target.value)}/>
+                </div>
+
+                <div style={{textAlign: "center"}}>
+                    <input type="submit" value="Send Message" disabled={!isValidForm}/>
+                </div>
+
+            </form>
+        </div>
+        </div>
+            
     )
 }
   
