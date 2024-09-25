@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="refresh" content="0; url=/Portfolio-Website/" />
+    <script type="text/javascript">
+        var segmentCount = 0;
+        var locationPath = window.location.pathname;
+        
+        // If path already contains "/Portfolio-Website", do not prepend again
+        if (locationPath.indexOf("/Portfolio-Website") === -1) {
+            locationPath = "/Portfolio-Website" + locationPath;
+        }
+        
+        window.location.href = locationPath;
+    </script>
+</head>
+<body>
+    Redirecting...
+</body>
+</html>
