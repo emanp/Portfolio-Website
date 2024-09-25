@@ -10,12 +10,12 @@ import Projects from './Pages/Projects';
 function App() {
   return (
     <div className="App">
-      <Router basename={"/"}>
+      <Router>
         <Routes>
           <Route index element={<Home />} />
-          <Route path="#/Home" element = {<Home/>} />
-          <Route path="#/Projects" element = {<Projects/>} />
-          <Route path="#/Contact" element={<Contact />} />
+          <Route path="Home" element = {<Home/>} />
+          <Route path="Projects" element = {<Projects/>} />
+          <Route path="Contact" element={<Contact />} />
         </Routes> 
       </Router>
     </div>
