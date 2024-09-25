@@ -1,7 +1,7 @@
 
 import React from 'react'
 import './App.css';
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./Pages/Home";
 import Contact from "./Pages/Contact"
 import Projects from './Pages/Projects';
@@ -13,9 +13,9 @@ function App() {
       <Router basename={"/Portfolio-Website"}>
         <Routes>
           <Route index element={<Home />} />
-          <Route path="/Home" element = {<Home/>} />
-          <Route path="/Projects" element = {<Projects/>} />
-          <Route path="/Contact" element={<Contact />} />
+          <Route path="Home" element = {<Home/>} />
+          <Route path="Projects" element = {<Projects/>} />
+          <Route path="Contact" element={<Contact />} />
         </Routes> 
       </Router>
     </div>
