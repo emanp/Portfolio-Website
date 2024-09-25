@@ -13,9 +13,9 @@ function App() {
       <Router basename={"/"}>
         <Routes>
           <Route index element={<Home />} />
-          <Route path="Home" element = {<Home/>} />
-          <Route path="Projects" element = {<Projects/>} />
-          <Route path="Contact" element={<Contact />} />
+          <Route path="#/Home" element = {<Home/>} />
+          <Route path="#/Projects" element = {<Projects/>} />
+          <Route path="#/Contact" element={<Contact />} />
         </Routes> 
       </Router>
     </div>
