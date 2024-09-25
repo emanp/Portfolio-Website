@@ -16,7 +16,7 @@ export default function Projects()
 
         <span className="navbar-text">
                 <div className="center-button">
-                    <a href="https://github.com/Pelayo-Emanuelle/CPE-301-Final-Project-.git">
+                    <a href="#/Contact">
                         <button> Contact Me! </button> 
                     </a>
                 </div>

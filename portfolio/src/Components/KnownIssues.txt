@@ -1,20 +1,22 @@
 1. Contact form not centered and styled
-2. onClick on contact buttons needs to redirect to "/contact"
-4. reused/retyped code in NavigationBar.js and Banner.js -> Is there a way to just use a shared function across components? (onClickContact)\
-5. Need Skills and Projects sections
-6. GitHub logo on home page is wayyy to small lmao\ and make it white/purple
-9. Bottom of "Projects" tab -- Contact Me button does not redirect to /contact
+2. reused/retyped code in NavigationBar.js and Banner.js -> Is there a way to just use a shared function across components? (onClickContact)\
+3. GitHub logo on home page is wayyy to small lmao\ and make it white/purple
+4. Needs actual videos of the projects
+5. Needs description in /Home
+6. Provide feedback when "Send Message" is clicked / Thank the user in a new page(?)
+7. Add Copyright -- Do I need to do anything other than put it on my website, like registering my website somewhere?
+
 
 --FIXED--
 - Needs portfolio
 - Buttons in portfolio section are black -- df?
     - Make them look like the "Let's Connect" in the header
 - Clicking on "logo" should lead to home
--
--
--
--
--
--
+- Bottom of "Projects" tab -- Contact Me button does not redirect to /contact
+-  onClick on contact buttons needs to redirect to "/contact"
+- Remove "Welcome to my portfolio" from home page
+- Remove LOGO from home
+- Tab name is "react app" Change to "Eman P"
+- Favicon is react symbol, change it to something else
 -
 -

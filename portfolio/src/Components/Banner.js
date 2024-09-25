@@ -58,7 +58,7 @@ export const Banner = () =>
             <Container>
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
-                        <span className="tagline">Welcome to my portfolio!</span>
+                        {/* <span className="tagline">Welcome to my portfolio!</span> */}
                         <h1>{"Hi, I'm Eman! "} <span className="wrap"> {currentText} </span> </h1>
                         <p>description about myself hi im eman describe your skills, responsibilities, etc. time in industry</p>
                         <button onClick={() => onClickContact("contact")}> Let's Connect <ArrowRightCircle size={25}></ArrowRightCircle> </button>

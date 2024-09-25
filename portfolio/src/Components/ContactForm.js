@@ -9,6 +9,7 @@ export default function ContactForm()
     const [name, setName] = useState("")
     const [message, setMessage] = useState("")
     const [email, setEmail] = useState("")
+    const [messageIsSent, setMessageIsSent] = useState(false);
 
     // console.log("Name: " + name);
     // console.log("Message: " + message)
@@ -29,6 +30,7 @@ export default function ContactForm()
             console.error('Error sending email:', error);
         });
         }
+        setMessageIsSent(true);
     };
 
     return (
@@ -53,16 +55,21 @@ export default function ContactForm()
 
                     <div>
                         <div><label htmlFor="Message"> Message* </label></div>
-                        <textarea name="message" rows="5" cols="32" style={{ fontSize: '1rem', padding: '10px' }} onChange={(e) => setMessage(e.target.value)} />
+                        <textarea name="message" rows="5" cols="33" style={{ fontSize: '1rem', padding: '10px' }} onChange={(e) => setMessage(e.target.value)} />
                     </div>
 
-                    <div style={{textAlign: "center"}}>
-                        <span className="navbar-text">
-                            <input type="submit" value="Send Message" disabled={!isValidForm}/>
-                        </span>
-                    </div>
+                    <span  style={{alignSelf: "center"}}>
+                    {!messageIsSent ? (
+                    <input type="submit" value="Send Message" disabled={!isValidForm} />
+                    ) : (
+                    <p style={{color:"#38aae8", textAlign:"center"}}>Message sent!</p>)}
+                    </span>
+                    
 
                 </form>
+            </div>
+            <div >
+                        
             </div>
         </div>
             
