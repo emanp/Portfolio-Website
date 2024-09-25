@@ -5,7 +5,7 @@ import logo from "../Assets/Images/logo.svg";
 import linkedInIcon from "../Assets/Images/linkedIn-icon.svg";
 import githubIcon from "../Assets/Images/github-icon.svg";
 
-//13.20 
+
 export const NavigationBar = () =>
 {
     const [activeLink, setActiveLink] = useState("home");

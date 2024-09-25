@@ -511,9 +511,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .form-container label {
   font-size: 1.2rem; /* Increase label size */
 }
-.form-container textarea{
-  
-}
+
 .form-container input {
   width: 300px; /* Adjust the input fields to be larger */
   padding: 10px; /* Add padding to make the input fields bigger */
