@@ -10,7 +10,7 @@ import Projects from './Pages/Projects';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename='/Portfolio-Website'>
         <Routes>
           <Route index element={<Home />} />
           <Route path="/Home" element = {<Home/>} />
