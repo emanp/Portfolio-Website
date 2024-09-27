@@ -1,4 +1,4 @@
-
+import classSearchPic from "../Assets/Images/classSearchPic.png"
 export default function WebDevelopmentProjects()
 {
     return (
@@ -11,9 +11,8 @@ export default function WebDevelopmentProjects()
             {/*link to the actual website here*/}
             {/*and let them play with it*/}
             {/*Video for now, though*/}
-            <iframe width="854" height="480"
-                src="https://www.youtube.com/embed/WA8kRL0CD5A?si=gt24U3TPjNd4pqyN&autoplay=1&mute=1&loop=1">
-            </iframe>
+            <img alt="Class search website demonstration" width="854" height="560"
+                src={classSearchPic}></img>
             <p>Collaborated with a team of 6 developers to create the front-end for an enhanced version of the
 PeopleSoft class search system used by the University of Nevada, Reno. Key improvements included
 advanced filtering options, a user-friendly interface, and a Google Calendar integration for
@@ -23,8 +22,8 @@ while AWS was used to host the website </p>
 
             <span className="navbar-text">
                     <div className="center-button">
-                        <a href="">
-                            <button> GitHub Needslink </button> 
+                        <a href="https://github.com/emanp/Class-Search">
+                            <button> GitHub </button> 
                         </a>
                     </div>
             </span>

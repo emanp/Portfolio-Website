@@ -18,9 +18,15 @@ export default function GameDevelopmentProjects()
             {/*placeholder */}
             {/*Ideally, this video would loop */}
             {/*...and would be a locally saved video */}
-            <iframe width="854" height="480"
-            src="https://www.youtube.com/embed/WA8kRL0CD5A?si=gt24U3TPjNd4pqyN&autoplay=1&mute=1&loop=1">
+
+            <iframe width="854" height="480" 
+                src="https://www.youtube.com/embed/xFnoeAzB2Ps?autoplay=1&loop=1&playlist=xFnoeAzB2Ps" 
+                title="YouTube video player" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerPolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
             </iframe>
+
             <p>Collaborated with a team of three developers to create a game inspired by Vampire Survivors using C# and Unity 2D. Our project involves designing and implementing game mechanics, user interfaces, and soundtracks. C# is utilized for script writing to develop game functionality and interactions. GitHub is used for collaboration with team members, version control, and code sharing. I worked on character movement, animations, attack mechanics, the startup menu, and one-third of the enemies as a whole.</p>
 
             <span className="navbar-text">
