@@ -8,9 +8,6 @@ export default function WebDevelopmentProjects()
             <p>Tired of your school's class search not working properly? Look no further than our
                 improved class search website. 
             </p>
-            {/*link to the actual website here*/}
-            {/*and let them play with it*/}
-            {/*Video for now, though*/}
             <img alt="Class search website demonstration" width="854" height="560"
                 src={classSearchPic}></img>
             <p>Collaborated with a team of 6 developers to create the front-end for an enhanced version of the

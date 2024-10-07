@@ -1,11 +1,9 @@
-1. Contact form not centered and styled
-2. reused/retyped code in NavigationBar.js and Banner.js -> Is there a way to just use a shared function across components? (onClickContact)\
-3. GitHub logo on home page is wayyy to small lmao\ and make it white/purple
-4. Needs actual videos of the projects
-5. Needs description in /Home
-6. Provide feedback when "Send Message" is clicked / Thank the user in a new page(?)
-7. Add Copyright -- Do I need to do anything other than put it on my website, like registering my website somewhere?
 
+1. reused/retyped code in NavigationBar.js and Banner.js -> Is there a way to just use a shared function across components? (onClickContact)\
+2. Once message is sent in Contact Form, redirect them to /Home
+3. Add Copyright -- Do I need to do anything other than put it on my website, like registering my website somewhere?
+4. Add "Check out more of my projects here!" At bottom of Projects section
+5. Clicking on icons should open in another tab
 
 --FIXED--
 - Needs portfolio
@@ -18,5 +16,11 @@
 - Remove LOGO from home
 - Tab name is "react app" Change to "Eman P"
 - Favicon is react symbol, change it to something else
--
--
+- Contact form not centered and styled
+- GitHub logo on home page is wayyy to small lmao\ and make it white/purple
+- Needs actual videos of the projects
+- Needs description in /Home
+- 
+- 
+- 
+- 
