@@ -2,7 +2,6 @@
 1. reused/retyped code in NavigationBar.js and Banner.js -> Is there a way to just use a shared function across components? (onClickContact)\
 2. Once message is sent in Contact Form, redirect them to /Home
 3. Add Copyright -- Do I need to do anything other than put it on my website, like registering my website somewhere?
-4. Add "Check out more of my projects here!" At bottom of Projects section
 5. Clicking on icons should open in another tab
 
 --FIXED--
@@ -20,7 +19,7 @@
 - GitHub logo on home page is wayyy to small lmao\ and make it white/purple
 - Needs actual videos of the projects
 - Needs description in /Home
-- 
+- Add "Check out more of my projects here!" At bottom of Projects section
 - 
 - 
 - 

@@ -16,6 +16,9 @@ export default function Projects()
 
         <span className="navbar-text">
                 <div className="center-button">
+                    <a href="https://drive.google.com/drive/folders/1pI1NIo28_cHaNpNwlHZkXnfUf-En5w8z?usp=drive_link">
+                      <button>See More</button>
+                    </a>
                     <a href="#/Contact">
                         <button> Contact Me! </button> 
                     </a>
