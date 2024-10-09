@@ -2,7 +2,11 @@
 1. reused/retyped code in NavigationBar.js and Banner.js -> Is there a way to just use a shared function across components? (onClickContact)\
 2. Once message is sent in Contact Form, redirect them to /Home
 3. Add Copyright -- Do I need to do anything other than put it on my website, like registering my website somewhere?
-5. Clicking on icons should open in another tab
+4. Make spanish version
+5. Home page should not scroll and should display well on mobile
+7. Add Current projects Section to Projects page
+
+
 
 --FIXED--
 - Needs portfolio
@@ -20,6 +24,6 @@
 - Needs actual videos of the projects
 - Needs description in /Home
 - Add "Check out more of my projects here!" At bottom of Projects section
-- 
-- 
+- Clicking on icons should open in another tab
+- Apex Extinction vid should be automatically muted
 - 

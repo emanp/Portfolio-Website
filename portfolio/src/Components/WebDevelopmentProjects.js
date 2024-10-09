@@ -19,7 +19,7 @@ while AWS was used to host the website </p>
 
             <span className="navbar-text">
                     <div className="center-button">
-                        <a href="https://github.com/emanp/Class-Search">
+                        <a href="https://github.com/emanp/Class-Search" target="_blank" rel="noopener noreferrer">
                             <button> GitHub </button> 
                         </a>
                     </div>

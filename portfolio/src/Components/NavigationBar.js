@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import {Link, useNavigate} from "react-router-dom"
-import logo from "../Assets/Images/logo.svg";
 import linkedInIcon from "../Assets/Images/linkedIn-icon.svg";
 import githubIcon from "../Assets/Images/github-icon.svg";
 
@@ -55,8 +54,8 @@ export const NavigationBar = () =>
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">
-                            <a href="https://www.linkedin.com/in/emanuelle-pelayo-544523315/"> <img src={linkedInIcon} alt="LinkedIn" /> </a>
-                            <a href="https://github.com/emanp"> <img src={githubIcon} alt="GitHub" /> </a>
+                            <a href="https://www.linkedin.com/in/emanuelle-pelayo-544523315/" target="_blank" rel="noopener noreferrer"> <img src={linkedInIcon} alt="LinkedIn" /> </a>
+                            <a href="https://github.com/emanp" target="_blank" rel="noopener noreferrer"> <img src={githubIcon} alt="GitHub" /> </a>
                         </div>
                         <button onClick={() => onClickContact("contact")}><span>Let's Connect!</span></button>
                     </span>

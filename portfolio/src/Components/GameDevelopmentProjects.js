@@ -20,7 +20,7 @@ export default function GameDevelopmentProjects()
             {/*...and would be a locally saved video */}
 
             <iframe width="854" height="480" 
-                src="https://www.youtube.com/embed/xFnoeAzB2Ps?autoplay=1&loop=1&playlist=xFnoeAzB2Ps" 
+                src="https://www.youtube.com/embed/xFnoeAzB2Ps?autoplay=1&loop=1&playlist=xFnoeAzB2Ps&mute=1" 
                 title="YouTube video player" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                 referrerPolicy="strict-origin-when-cross-origin" 
@@ -31,7 +31,7 @@ export default function GameDevelopmentProjects()
 
             <span className="navbar-text">
                 <div className="center-button">
-                    <a href="https://github.com/Andrade-Sebastian/Apex-Extinction">
+                    <a href="https://github.com/Andrade-Sebastian/Apex-Extinction" target="_blank" rel="noopener noreferrer">
                         <button> GitHub </button> 
                     </a>
                 </div>

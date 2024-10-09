@@ -18,7 +18,7 @@ assisted in the wiring and physical assembly of the project. </p>
 
             <span className="navbar-text">
                 <div className="center-button">
-                    <a href="https://github.com/Pelayo-Emanuelle/CPE-301-Final-Project-.git">
+                    <a href="https://github.com/Pelayo-Emanuelle/CPE-301-Final-Project-.git" target="_blank" rel="noopener noreferrer">
                         <button> GitHub </button> 
                     </a>
                 </div>
