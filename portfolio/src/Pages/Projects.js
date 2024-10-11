@@ -1,6 +1,7 @@
 import GameDevelopmentProjects from "../Components/GameDevelopmentProjects";
 import WebDevelopmentProjects from "../Components/WebDevelopmentProjects";
 import EmbeddedSystemsProjects from "../Components/EmbeddedSystemsProjects";
+import CurrentProjects from "../Components/CurrentProjects";
 import NavigationBar from "../Components/NavigationBar";
 
 
@@ -12,6 +13,7 @@ export default function Projects()
         <GameDevelopmentProjects />
         <WebDevelopmentProjects />
         <EmbeddedSystemsProjects />
+        <CurrentProjects />
         <h2 align="center"> Like what you see? </h2>
 
         <span className="navbar-text">
