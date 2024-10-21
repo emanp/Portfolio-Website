@@ -3,29 +3,20 @@ import WebDevelopmentProjects from "../Components/WebDevelopmentProjects";
 import EmbeddedSystemsProjects from "../Components/EmbeddedSystemsProjects";
 import CurrentProjects from "../Components/CurrentProjects";
 import NavigationBar from "../Components/NavigationBar";
-
+import backgroundImg from "../Assets/Images/banner-bg.png"
+import Footer from "../Components/Footer";
 
 export default function Projects()
 {
   return (
-    <div>
+    <div style={{
+      backgroundImage: `url(${backgroundImg})`, backgroundAttachment: "fixed"}}>
         <NavigationBar />
         <GameDevelopmentProjects />
         <WebDevelopmentProjects />
         <EmbeddedSystemsProjects />
         <CurrentProjects />
-        <h2 align="center"> Like what you see? </h2>
-
-        <span className="navbar-text">
-                <div className="center-button">
-                    <a href="https://drive.google.com/drive/folders/1pI1NIo28_cHaNpNwlHZkXnfUf-En5w8z?usp=drive_link" target="_blank" rel="noopener noreferrer">
-                      <button>See More</button>
-                    </a>
-                    <a href="#/Contact" >
-                        <button> Contact Me! </button> 
-                    </a>
-                </div>
-        </span>
+        <Footer />
     </div>
   )
 }

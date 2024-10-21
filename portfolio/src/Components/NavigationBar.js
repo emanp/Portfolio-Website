@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
-import {Link, useNavigate} from "react-router-dom"
+import {Link, useNavigate, useLocation} from "react-router-dom"
 import linkedInIcon from "../Assets/Images/linkedIn-icon.svg";
 import githubIcon from "../Assets/Images/github-icon.svg";
 
@@ -10,6 +10,7 @@ export const NavigationBar = () =>
     const [activeLink, setActiveLink] = useState("home");
     const [scrolled, setScrolled] = useState(false);
     const navigate = useNavigate();
+    const location = useLocation();
 
     
     useEffect(() => {
@@ -37,8 +38,17 @@ export const NavigationBar = () =>
         navigate("/" + value);
     }
 
+    function isContactForm()
+    {
+        return location.pathname === "/contact"
+    }
+
+    console.log("Contact form?: " + isContactForm())
+    console.log("Is Scrolled: " + scrolled)
+    
+
     return (
-        <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
+        <Navbar expand="lg" className={(scrolled ? "scrolled" : "")}>
             <Container>
                 {/* <Navbar.Brand href="#/home">
                     <img src={logo} alt="Logo" onClick={() => onClickContact("home")}/>

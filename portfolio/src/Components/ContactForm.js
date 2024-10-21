@@ -3,6 +3,9 @@ import { useState } from "react";
 import validator from 'validator'; //for email validation - https://www.npmjs.com/package/validator
 import emailjs from "@emailjs/browser";
 import { sendForm } from "emailjs-com"; //for sending emails to myself - emailjs.com
+import { useNavigate } from "react-router-dom";
+import backgroundImg from "../Assets/Images/banner-bg.png";
+
 
 export default function ContactForm()
 {
@@ -11,9 +14,7 @@ export default function ContactForm()
     const [email, setEmail] = useState("")
     const [messageIsSent, setMessageIsSent] = useState(false);
 
-    // console.log("Name: " + name);
-    // console.log("Message: " + message)
-    // console.log("Email: " + email)
+    const navigateTo = useNavigate();
 
     const isValidForm = (email !== "" && message !== "" && name !== "") && isValidEmail(email);
 
@@ -31,12 +32,14 @@ export default function ContactForm()
         });
         }
         setMessageIsSent(true);
+        //Navigate to "#/home" after 3 seconds
+        setTimeout(() => navigateTo('/home'), 3000);
     };
 
     return (
         <div>
             <div>
-                <h1 style={{marginTop: '100px' , textAlign: 'center'}}>Contact Me!</h1>
+                <h1 style={{textAlign: 'center'}}>Contact Me!</h1>
                 <p style={{textAlign: 'center'}}>I'd love to hear from you. Send me a message and I'll respond as soon as possible.</p>
             </div>
 
@@ -59,20 +62,13 @@ export default function ContactForm()
                     </div>
 
                     <span  style={{alignSelf: "center"}}>
-                    {!messageIsSent ? (
-                    <input type="submit" value="Send Message" disabled={!isValidForm} />
-                    ) : (
-                    <p style={{color:"#38aae8", textAlign:"center"}}>Message sent!</p>)}
+                        {!messageIsSent ? (<input type="submit" value="Send Message" disabled={!isValidForm} />) 
+                        : (
+                        <p style={{color:"#38aae8", textAlign:"center"}}>Message sent!</p>)}
                     </span>
-                    
-
                 </form>
             </div>
-            <div >
-                        
-            </div>
         </div>
-            
     )
 }
   

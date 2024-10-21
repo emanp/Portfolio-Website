@@ -19,7 +19,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  ox-sizing: border-box;
 }
 
 html {
@@ -187,7 +187,11 @@ span.navbar-text {
   transition: 0.3s ease-in-out;
 }
 .navbar-text button:hover {
-  color: #121212;
+  color: #9e78cf;
+}
+
+.navbar-text-footer button:hover{
+  color: blue
 }
 .navbar-text button:hover::before {
 	content: "";

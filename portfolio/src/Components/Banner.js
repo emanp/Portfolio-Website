@@ -58,14 +58,12 @@ export const Banner = () =>
             <Container>
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
-                        {/* <span className="tagline">Welcome to my portfolio!</span> */}
                         <h1>{"Hi, I'm Eman! "} <span className="wrap"> {currentText} </span> </h1>
                         <p>Based in Reno, NV, I’m a fourth-year Computer Science student passionate about creating engaging and helpful applications with clean, intuitive user interfaces. With experience in Game Development, Embedded Systems, and Full-Stack Web Development, I am dedicated to building innovative solutions that improve everyday life. Open to new opportunities and inquiries.</p>
                         <button onClick={() => onClickContact("contact")}> Let's Connect <ArrowRightCircle size={25}></ArrowRightCircle> </button>
-
                     </Col>
                     <Col xs={12} md={6} xl={5}>
-                    <img src={headerImg} alt="Header Image" />
+                    <img src={headerImg} alt="Spaceman Decoration" />
                     </Col>
                 </Row>
             </Container>

@@ -4,7 +4,7 @@ import Banner from "../Components/Banner";
 export default function Home()
 {
     return (
-        <div>
+        <div style={{ overflow: 'hidden'}}>
             <NavigationBar />
             <Banner />
         </div>
