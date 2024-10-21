@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/Portfolio-Website/static/css/main.c2f26c99.css",
-    "main.js": "/Portfolio-Website/static/js/main.1e0ccce8.js",
+    "main.css": "/Portfolio-Website/static/css/main.e932feca.css",
+    "main.js": "/Portfolio-Website/static/js/main.e3840ebd.js",
     "static/js/453.ace21015.chunk.js": "/Portfolio-Website/static/js/453.ace21015.chunk.js",
+    "static/media/WaveBrigade-Room-Demo.png": "/Portfolio-Website/static/media/WaveBrigade-Room-Demo.dd7962a40e2ad3b12d67.png",
     "static/media/banner-bg.png": "/Portfolio-Website/static/media/banner-bg.cc1273af450504afe755.png",
     "static/media/header-img.svg": "/Portfolio-Website/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
     "static/media/classSearchPic.png": "/Portfolio-Website/static/media/classSearchPic.60baa9a442bcdfc2548a.png",
@@ -12,12 +13,12 @@
     "static/media/github-icon.svg": "/Portfolio-Website/static/media/github-icon.a7c181304a6279917c2e1b50f36cf849.svg",
     "index.html": "/Portfolio-Website/index.html",
     "static/media/linkedIn-icon.svg": "/Portfolio-Website/static/media/linkedIn-icon.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.c2f26c99.css.map": "/Portfolio-Website/static/css/main.c2f26c99.css.map",
-    "main.1e0ccce8.js.map": "/Portfolio-Website/static/js/main.1e0ccce8.js.map",
+    "main.e932feca.css.map": "/Portfolio-Website/static/css/main.e932feca.css.map",
+    "main.e3840ebd.js.map": "/Portfolio-Website/static/js/main.e3840ebd.js.map",
     "453.ace21015.chunk.js.map": "/Portfolio-Website/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2f26c99.css",
-    "static/js/main.1e0ccce8.js"
+    "static/css/main.e932feca.css",
+    "static/js/main.e3840ebd.js"
   ]
 }
