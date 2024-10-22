@@ -4,7 +4,6 @@ import validator from 'validator'; //for email validation - https://www.npmjs.co
 import emailjs from "@emailjs/browser";
 import { sendForm } from "emailjs-com"; //for sending emails to myself - emailjs.com
 import { useNavigate } from "react-router-dom";
-import backgroundImg from "../Assets/Images/banner-bg.png";
 
 
 export default function ContactForm()
@@ -32,8 +31,8 @@ export default function ContactForm()
         });
         }
         setMessageIsSent(true);
-        //Navigate to "#/home" after 3 seconds
-        setTimeout(() => navigateTo('/home'), 3000);
+        
+        setTimeout(() => navigateTo('/home'), 3000); //Navigate to "#/home" after 3 seconds
     };
 
     return (
@@ -61,7 +60,7 @@ export default function ContactForm()
                         <textarea name="message" rows="5" cols="33" style={{ fontSize: '1rem', padding: '10px' }} onChange={(e) => setMessage(e.target.value)} />
                     </div>
 
-                    <span  style={{alignSelf: "center"}}>
+                    <span style={{alignSelf: "center"}}>
                         {!messageIsSent ? (<input type="submit" value="Send Message" disabled={!isValidForm} />) 
                         : (
                         <p style={{color:"#38aae8", textAlign:"center"}}>Message sent!</p>)}

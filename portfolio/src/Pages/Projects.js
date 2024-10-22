@@ -9,14 +9,12 @@ import Footer from "../Components/Footer";
 export default function Projects()
 {
   return (
-    <div style={{
-      backgroundImage: `url(${backgroundImg})`, backgroundAttachment: "fixed"}}>
+    <div style={{backgroundImage: `url(${backgroundImg})`, backgroundAttachment: "fixed"}}>
         <NavigationBar />
         <GameDevelopmentProjects />
         <WebDevelopmentProjects />
         <EmbeddedSystemsProjects />
         <CurrentProjects />
-
         <Footer />
     </div>
   )

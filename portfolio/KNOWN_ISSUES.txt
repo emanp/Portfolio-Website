@@ -1,14 +1,12 @@
-
-4. Make spanish version
-5. Home page should not scroll and should display well on mobile
-6. Copyright section of Footer should be smaller font
-
-
+1. Make Website Mobile-Friendly
+2. Home page should not scroll and should display well on mobile
+3. Make spanish version
+3. Copyright section of Footer should be smaller font
 
 
 --FIXED--
 - Needs portfolio
-- Buttons in portfolio section are black -- df?
+- Buttons in portfolio section are black -- change to be visible
     - Make them look like the "Let's Connect" in the header
 - Clicking on "logo" should lead to home
 - Bottom of "Projects" tab -- Contact Me button does not redirect to /contact

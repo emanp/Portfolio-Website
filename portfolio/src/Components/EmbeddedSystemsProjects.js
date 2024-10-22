@@ -11,11 +11,8 @@ This project was developed through the use of an Arduino MEGA 2560 and ANSI C
 programming, alongside an array of specialized modules, sensors, and a breadboard kit. I
 collaborated with a teammate to develop the software, research and create documentation, and
 assisted in the wiring and physical assembly of the project. </p>
-            <iframe width="854" height="480"
-        src="https://www.youtube.com/embed/aPLeDOnwAaY?si=-XmeQ7fxTtdy_vno
-        &autoplay=1&mute=1&loop=1">
-            </iframe>
-
+            <iframe width="854" height="480" src="https://www.youtube.com/embed/aPLeDOnwAaY?si=-XmeQ7fxTtdy_vno&autoplay=1&mute=1&loop=1"></iframe>
+            
             <span className="navbar-text">
                 <div className="center-button">
                     <a href="https://github.com/Pelayo-Emanuelle/CPE-301-Final-Project-.git" target="_blank" rel="noopener noreferrer">
@@ -23,7 +20,6 @@ assisted in the wiring and physical assembly of the project. </p>
                     </a>
                 </div>
             </span>
-
         </div>
     )
 }

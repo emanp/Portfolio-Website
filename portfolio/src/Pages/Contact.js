@@ -9,13 +9,12 @@ export default function Contact() {
             style={{
                 backgroundImage: `url(${backgroundImg})`,
                 backgroundAttachment: "fixed",
-                backgroundSize: "cover", // Ensure the image covers the div
+                backgroundSize: "cover", 
                 backgroundPosition: "center",
-                minHeight: "100vh", // Ensure the div covers the full screen height
-                width: "100%", // Full screen width
-                overflow: "hidden", // Prevents unwanted scrollbars
-            }}
-        >
+                minHeight: "100vh", 
+                width: "100%", 
+                overflow: "hidden", 
+            }}>
             <NavigationBar />
             <div style={{ height: "100px" }}></div>
             <ContactForm />
