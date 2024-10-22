@@ -16,6 +16,7 @@ export default function Projects()
         <WebDevelopmentProjects />
         <EmbeddedSystemsProjects />
         <CurrentProjects />
+
         <Footer />
     </div>
   )

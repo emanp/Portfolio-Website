@@ -1,6 +1,8 @@
 
 4. Make spanish version
 5. Home page should not scroll and should display well on mobile
+6. Copyright section of Footer should be smaller font
+
 
 
 
