@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-Website/static/css/main.e932feca.css",
-    "main.js": "/Portfolio-Website/static/js/main.a927367d.js",
+    "main.css": "/Portfolio-Website/static/css/main.464aaa6a.css",
+    "main.js": "/Portfolio-Website/static/js/main.21999ee9.js",
     "static/js/453.ace21015.chunk.js": "/Portfolio-Website/static/js/453.ace21015.chunk.js",
     "static/media/WaveBrigade-Room-Demo.png": "/Portfolio-Website/static/media/WaveBrigade-Room-Demo.dd7962a40e2ad3b12d67.png",
     "static/media/banner-bg.png": "/Portfolio-Website/static/media/banner-bg.cc1273af450504afe755.png",
@@ -11,14 +11,16 @@
     "static/media/CentraNo2-Medium.ttf": "/Portfolio-Website/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/Portfolio-Website/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/github-icon.svg": "/Portfolio-Website/static/media/github-icon.a7c181304a6279917c2e1b50f36cf849.svg",
+    "static/media/house.svg": "/Portfolio-Website/static/media/house.7f6174c5a3829e45bf106586250d12fc.svg",
     "index.html": "/Portfolio-Website/index.html",
     "static/media/linkedIn-icon.svg": "/Portfolio-Website/static/media/linkedIn-icon.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.e932feca.css.map": "/Portfolio-Website/static/css/main.e932feca.css.map",
-    "main.a927367d.js.map": "/Portfolio-Website/static/js/main.a927367d.js.map",
+    "static/media/mail.svg": "/Portfolio-Website/static/media/mail.2e4e91f8a19e268c00a1090e8c6519bf.svg",
+    "main.464aaa6a.css.map": "/Portfolio-Website/static/css/main.464aaa6a.css.map",
+    "main.21999ee9.js.map": "/Portfolio-Website/static/js/main.21999ee9.js.map",
     "453.ace21015.chunk.js.map": "/Portfolio-Website/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e932feca.css",
-    "static/js/main.a927367d.js"
+    "static/css/main.464aaa6a.css",
+    "static/js/main.21999ee9.js"
   ]
 }
