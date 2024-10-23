@@ -1,7 +1,11 @@
 import WaveBrigadeRoomDemo from "../Assets/Images/WaveBrigade-Room-Demo.png"
+import { useMediaQuery } from "react-responsive";
+
 
 export default function CurrentProjects()
 {
+    const isDesktop = useMediaQuery({minWidth: 768});
+
     return (
         <div className="projects">
             <h1 align="left"> <u>Current Projects</u> </h1>
@@ -13,7 +17,7 @@ export default function CurrentProjects()
                 The front-end is built using React, Tailwind, and NextUI, while the back-end uses Express, Socket.io, and PostgreSQL. This project is expected to be finished by 
                 May of 2025.
             </p>
-            <img src={WaveBrigadeRoomDemo} alt="Wave Brigade Lobby Demonstration" width="854" height="560"></img>
+            {isDesktop ? <img src={WaveBrigadeRoomDemo} alt="Wave Brigade Lobby Demonstration" width="854" height="560"></img> : <img src={WaveBrigadeRoomDemo} alt="Wave Brigade Lobby Demonstration" className="mobile-image-container"></img>}
 
             <span className="navbar-text">
                 <div className="center-button">

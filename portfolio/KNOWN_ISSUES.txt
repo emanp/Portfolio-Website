@@ -1,4 +1,7 @@
-1. Make Website Mobile-Friendly
+1. Make Website Mobile-Friendly (Use React/CSS Media Queries)
+    - Home: Needs
+    - Projects: Needs
+    - Contact: Done
 2. Home page should not scroll and should display well on mobile
 3. Make spanish version
 3. Copyright section of Footer should be smaller font

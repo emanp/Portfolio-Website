@@ -1,9 +1,14 @@
 import ContactForm from "../Components/ContactForm";
 import NavigationBar from "../Components/NavigationBar";
 import backgroundImg from "../Assets/Images/banner-bg.png"
-
+import { useMediaQuery } from "react-responsive";
+import MobileNavigationBar from "../Components/MobileNavigationBar";
 
 export default function Contact() {
+
+    const isDesktop = useMediaQuery({minWidth: 768});
+
+
     return (
         <div
             style={{
@@ -15,7 +20,7 @@ export default function Contact() {
                 width: "100%", 
                 overflow: "hidden", 
             }}>
-            <NavigationBar />
+            {isDesktop ? <NavigationBar /> : <MobileNavigationBar />}
             <div style={{ height: "100px" }}></div>
             <ContactForm />
         </div>
