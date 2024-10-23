@@ -33,7 +33,8 @@ export default function Home()
             backgroundSize: "cover",         
             backgroundPosition: "center",    
             backgroundRepeat: "no-repeat",  
-            minHeight: "100vh",              
+            minHeight: "100vh", 
+            height: "100%",             
             width: "100%",
             overflow: "hidden"                   
           }}>
